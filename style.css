@@ -304,3 +304,42 @@ nav{
     top:0;
     z-index:1000;
 }
+.contact-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+    margin-top:30px;
+}
+
+.contact-box{
+    width:400px;
+    padding:18px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    border-radius:50px;
+    border:2px solid #00a2ff;
+    font-size:1.1rem;
+    transition:all 0.2s ease;
+    box-shadow:0 0 20px rgba(0,162,255,0.3);
+}
+
+.contact-box:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 30px rgba(0,162,255,0.5);
+}
+
+.contact-box:active{
+    transform:scale(0.96);
+    box-shadow:inset 0 5px 15px rgba(0,0,0,0.6);
+}
+@media(max-width:600px){
+
+.contact-box{
+    width:85%;
+    font-size:1rem;
+}
+
+}
