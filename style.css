@@ -445,3 +445,69 @@ nav{
     text-align:center;
     transform:translateX(-115px);
 }
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:250px;
+    }
+
+    .why-work-grid{
+        grid-template-columns:1fr;
+    }
+
+    .portfolio-grid{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .portfolio video{
+        width:90%;
+        max-width:350px;
+    }
+
+    .portfolio-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .side-videos{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .long-section h2{
+        transform:none;
+    }
+
+    .contact-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    h1{
+        font-size:36px;
+    }
+
+    h2{
+        font-size:28px;
+    }
+
+    p{
+        font-size:16px;
+    }
+}
