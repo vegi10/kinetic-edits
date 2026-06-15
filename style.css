@@ -334,7 +334,10 @@ nav{
 .social-box a:active img{
     transform:scale(0.9);
 }
-
+.short-section{
+    display:flex;
+    gap:40px;
+}
 @media(max-width:600px){
     .social-box{
         width:90%;
@@ -406,10 +409,6 @@ nav{
 .why-box:hover{
     transform:translateY(-5px);
     box-shadow:0 0 25px rgba(0,162,255,0.5);
-}
-.short-section{
-    display:flex;
-    gap:40px;
 }
 @media(max-width:400px){
     .why-work-grid{
