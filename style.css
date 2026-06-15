@@ -475,10 +475,6 @@ nav{
         max-width:350px;
     }
 
-   .portfolio-wrapper{
-    grid-template-columns:2fr 1fr;
-}
-
     .side-videos{
         display:flex;
         flex-direction:column;
