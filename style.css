@@ -427,5 +427,6 @@ nav{
 .side-videos video{
     width:350px;
     height:315px;
-    object-fit:cover;
+    object-fit:contain;
+    background:#000;
 }
