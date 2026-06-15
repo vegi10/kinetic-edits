@@ -379,14 +379,14 @@ nav{
 }
 .why-work-grid{
     display:grid;
-    grid-template-columns:250px 250px;
+    grid-template-columns:200px 200px;
     column-gap:100px;
     row-gap:25px;
     margin-top:20px;
 }
 
 .why-box{
-    width:250px;
+    width:200px;
     height:85px;
 
     display:flex;
