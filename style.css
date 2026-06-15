@@ -379,20 +379,24 @@ nav{
 }
 .why-work-grid{
     display:grid;
-    grid-template-columns:220px 220px;
-    column-gap:80px;
+    grid-template-columns:250px 250px;
+    column-gap:100px;
     row-gap:25px;
     margin-top:20px;
-    justify-content:start;
 }
 
 .why-box{
-    background:#1a1a1a;
     width:250px;
-    padding:10px;
+    height:85px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#1a1a1a;
     border-radius:12px;
     text-align:center;
-    color:#00aaff !important;
+    color:#00aaff;
     border:1px solid #00aaff;
     box-shadow:0 0 15px rgba(0,162,255,0.3);
     transition:0.3s;
