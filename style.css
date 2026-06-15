@@ -430,3 +430,15 @@ nav{
     object-fit:contain;
     background:#000;
 }
+.portfolio-headings{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.portfolio-headings h2{
+    color:white;
+    font-size:36px;
+    margin:0;
+}
