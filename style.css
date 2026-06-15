@@ -268,16 +268,17 @@ nav ul li a:hover{
 }
 
 .portfolio h2{
-    text-align:left;
+    text-align:center;
     color:white;
     font-size:36px;
     margin-bottom:20px;
 }
 
 .portfolio-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    display:flex;
+    justify-content:center;
     gap:30px;
+    flex-wrap:wrap;
 }
 
 .portfolio video{
@@ -416,4 +417,27 @@ nav{
 }
 .why-box:hover{
     color:white;
+}
+.portfolio-grid{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+}
+
+.portfolio-grid > video{
+    width:250px;
+    height:500px;
+    object-fit:cover;
+}
+
+.right-videos{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.right-videos video{
+    width:250px;
+    height:240px;
+    object-fit:cover;
 }
