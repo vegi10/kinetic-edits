@@ -418,26 +418,14 @@ nav{
 .why-box:hover{
     color:white;
 }
-.portfolio-grid{
-    display:flex;
-    gap:25px;
-    justify-content:center;
-}
-
-.portfolio-grid > video{
-    width:250px;
-    height:500px;
-    object-fit:cover;
-}
-
-.right-videos{
+.side-videos{
     display:flex;
     flex-direction:column;
     gap:20px;
 }
 
-.right-videos video{
-    width:250px;
-    height:240px;
+.side-videos video{
+    width:350px;
+    height:315px;
     object-fit:cover;
 }
