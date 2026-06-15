@@ -334,10 +334,6 @@ nav{
 .social-box a:active img{
     transform:scale(0.9);
 }
-.short-section{
-    display:flex;
-    gap:40px;
-}
 @media(max-width:600px){
     .social-box{
         width:90%;
