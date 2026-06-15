@@ -343,3 +343,10 @@ nav{
         width:40px;
     }
 }
+.about-content div h2{
+    font-size:1.8rem;
+}
+
+.about-content h2:last-of-type{
+    font-size:1.8rem;
+}
