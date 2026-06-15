@@ -386,10 +386,10 @@ nav{
 
 .why-box{
     background:#1a1a1a;
-    padding:20px;
+    padding:10px;
     border-radius:12px;
     text-align:center;
-    border:1px solid #00aaff;
+    border:0.69x solid #00aaff;
     box-shadow:0 0 15px rgba(0,162,255,0.3);
     transition:0.3s;
 }
@@ -398,7 +398,7 @@ nav{
     transform:translateY(-5px);
     box-shadow:0 0 25px rgba(0,162,255,0.5);
 }
-@media(max-width:600px){
+@media(max-width:400px){
     .why-work-grid{
         grid-template-columns:1fr;
     }
