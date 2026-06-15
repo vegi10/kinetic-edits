@@ -379,24 +379,24 @@ nav{
 }
 .why-work-grid{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
-
-    column-gap:50px;
+    grid-template-columns:220px 220px;
+    column-gap:30px;
     row-gap:15px;
-
     margin-top:20px;
+    justify-content:start;
 }
 
 .why-box{
     background:#1a1a1a;
-    padding:7px;
+    width:220px;
+    padding:10px;
     border-radius:12px;
     text-align:center;
-    border:0.69x solid #00aaff;
+    color:#00aaff;
+    border:1px solid #00aaff;
     box-shadow:0 0 15px rgba(0,162,255,0.3);
     transition:0.3s;
 }
-
 .why-box:hover{
     transform:translateY(-5px);
     box-shadow:0 0 25px rgba(0,162,255,0.5);
@@ -405,4 +405,7 @@ nav{
     .why-work-grid{
         grid-template-columns:1fr;
     }
+}
+.why-work-grid .why-box{
+    color:#00aaff;
 }
