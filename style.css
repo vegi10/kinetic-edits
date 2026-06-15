@@ -380,10 +380,11 @@ nav{
 .why-work-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    column-gap:60px;
-    
-    max-width:400px;
-    margin:20px auto;
+
+    column-gap:50px;
+    row-gap:15px;
+
+    margin-top:20px;
 }
 
 .why-box{
