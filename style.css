@@ -433,12 +433,9 @@ nav{
 .portfolio-headings{
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .portfolio-headings h2{
-    color:white;
-    font-size:36px;
     margin:0;
 }
