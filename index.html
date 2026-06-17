@@ -76,7 +76,7 @@ Contact Me
         <img src="images/manohar.png" alt="Manohar">
     </div>
 
-    <section id="about" class="about-section">
+    <section id="about" class="about about-section">
         <h2>About Me</h2>
 
         <p>
@@ -211,16 +211,13 @@ Contact Me
         <p>© 2026 mbcrafts. All Rights Reserved.</p>
     </footer>
     
-<script src="script.js"></script>
-    <script>
+<script>
 const aboutSection = document.querySelector('.about-section');
 
 window.addEventListener('scroll', () => {
-    if (!aboutSection) return;
-
     const sectionTop = aboutSection.getBoundingClientRect().top;
 
-    if (sectionTop < window.innerHeight - 100) {
+    if(sectionTop < window.innerHeight - 100){
         aboutSection.classList.add('show');
     }
 });
