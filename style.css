@@ -602,3 +602,13 @@ nav{
     opacity:1;
     transform:translateY(0);
 }
+#typing-text::after{
+    content:"|";
+    animation:blink 0.8s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
