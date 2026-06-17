@@ -194,29 +194,8 @@ nav ul li a:hover{
 }
 
 /* =========================
-   ABOUT ANIMATION
-========================= */
-
-.about-section{
-    opacity:0;
-    transform:translateY(50px);
-    transition:opacity 1s ease, transform 1s ease;
-}
-
-.about-section.show{
-    opacity:1;
-    transform:translateY(0);
-}
-
-/* =========================
    SERVICES GRID
 ========================= */
-
-.service-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-}
 
 /* =========================
    MOBILE RESPONSIVE
