@@ -622,29 +622,30 @@ nav{
     overflow:hidden;
 }
 
-.animated-bg::before,
-.animated-bg::after{
+.animated-bg::before{
     content:"";
     position:absolute;
-    width:200%;
-    height:200%;
+    width:100%;
+    height:100%;
+
     background:
-        radial-gradient(circle, rgba(0,170,255,0.15) 2px, transparent 2px);
-    background-size:120px 120px;
-    animation:particlesMove 25s linear infinite;
+        radial-gradient(circle at 15% 20%, rgba(0,170,255,0.20) 20px, transparent 21px),
+        radial-gradient(circle at 75% 15%, rgba(0,170,255,0.15) 30px, transparent 31px),
+        radial-gradient(circle at 40% 70%, rgba(0,170,255,0.18) 25px, transparent 26px),
+        radial-gradient(circle at 85% 80%, rgba(0,170,255,0.15) 35px, transparent 36px),
+        radial-gradient(circle at 20% 90%, rgba(0,170,255,0.12) 22px, transparent 23px);
+
+    filter:blur(10px);
+
+    animation:floatBubbles 12s ease-in-out infinite alternate;
 }
 
-.animated-bg::after{
-    animation-duration:40s;
-    opacity:0.5;
-    transform:scale(1.2);
-}
-
-@keyframes particlesMove{
-    from{
-        transform:translateY(0);
+@keyframes floatBubbles{
+    0%{
+        transform:translateY(0px);
     }
-    to{
-        transform:translateY(-120px);
+
+    100%{
+        transform:translateY(-60px);
     }
 }
